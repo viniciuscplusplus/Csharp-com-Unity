@@ -2,16 +2,20 @@ using UnityEngine;
 
 public class playermovement : MonoBehaviour
 {
+    //stats
 
-    public float base_speed;
+    EntityStats entity_stats;   
+
     float move_speed;
     void Start()
     {
-        move_speed = base_speed * 20;
+        entity_stats = gameObject.GetComponent<EntityStats>();
+
+        move_speed = entity_stats.base_speed;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         WASDMove();
     }
@@ -21,16 +25,16 @@ public class playermovement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
-        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2 (horizontal * move_speed, vertical * move_speed));
+        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2 (horizontal * move_speed * Time.deltaTime, vertical * move_speed * Time.deltaTime));
 
         if ( (horizontal > 0 || horizontal < 0) && (vertical > 0 || vertical < 0) )
         { 
-            move_speed = base_speed * 15; 
+            move_speed = entity_stats.base_speed; 
         }
 
         else
         {
-            move_speed = base_speed * 20;
+            move_speed = entity_stats.base_speed;
         }
 
     }
