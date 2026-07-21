@@ -1,47 +1,12 @@
-# 🎮 Projeto Unity com C#
+# 🎮 Jogo Par ou Ímpar
 
-Este repositório contém meus projetos e arquivos desenvolvidos em **Unity** com **C#**, durante o curso do YouTuber **André Young**.
+## 📖 Sobre o Projeto
 
----
+Este é o meu primeiro jogo desenvolvido na Unity utilizando **C#**! 
 
-## 👨‍💻 Sobre o autor
+O clássico **Par ou Ímpar** ganhou vida com uma interface gráfica (UI) criada do zero. Foi meu primeiro passo no mundo do desenvolvimento de jogos, onde pude colocar em prática conceitos fundamentais como:
 
-**Nome:** Vinícius Silva Souza 
-**Curso:** Sistemas de Informação  
-**Semestre:** 6º Semestre
-
----
-
-## 📚 Sobre o projeto
-
-Os arquivos aqui presentes são fruto dos meus estudos e prática na plataforma Unity, utilizando a linguagem C# para desenvolvimento de jogos e aplicações interativas.
-
-O conteúdo foi desenvolvido acompanhando as aulas e tutoriais do canal **André Young**, com adaptações e experimentos próprios para consolidar meu aprendizado.
-
----
-
-## 🎯 Objetivos
-
-- Aprender e praticar desenvolvimento de jogos com Unity
-- Aprimorar habilidades em C# e lógica de programação
-- Construir um portfólio de projetos para a área de desenvolvimento de software e jogos
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-- **Unity**
-- **C#** (.NET Framework / Mono)
-- **VS Code**
-
-
----
-
-## 📌 Observações
-
-Este repositório é parte do meu aprendizado acadêmico e pessoal. Sinta-se à vontade para explorar, sugerir melhorias ou entrar em contato!
-
----
-
-**📧 Contato:** vinicius.souza2@estudante.saoluis.br  
-**🔗 LinkedIn:** https://www.linkedin.com/in/vinicius3120/
+- ✅ Criação de interfaces interativas (UI)
+- ✅ Lógica de programação com C#
+- ✅ Gerenciamento de eventos e cliques
+- ✅ Manipulação de textos e botões
